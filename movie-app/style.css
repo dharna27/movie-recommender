@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: Papyrus, "Fantasy";
+    background-color: rgb(238, 230, 230);
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background-color: rgb(238, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Search Box */
+input {
+    padding: 12px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    background: #9a9797;
+    color: white;
+}
+
+/* Buttons */
+button {
+    padding: 12px 16px;
+    border-radius: 8px;
+    background: #f32daa;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #f32daa;
+}
+
+/* Movies Grid */
+#moviesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Movie Card */
+.movie-card {
+    background: #abaaaa;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Movie Poster */
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.movie {
+    width: 200px;
+    background: #222;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
